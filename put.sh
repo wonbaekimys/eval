@@ -1,0 +1,9 @@
+hdfs dfs -Ddfs.blocksize=4194304 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_4mb
+hdfs dfs -Ddfs.blocksize=8388608 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_8mb
+hdfs dfs -Ddfs.blocksize=16777216 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_16mb
+hdfs dfs -Ddfs.blocksize=33554432 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_32mb
+hdfs dfs -Ddfs.blocksize=67108864 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_64mb
+hdfs dfs -Ddfs.blocksize=268435456 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_256mb
+hdfs dfs -Ddfs.blocksize=536870912 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_512mb
+hdfs dfs -Ddfs.blocksize=1073741824 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_1gb
+hdfs dfs -Ddfs.blocksize=2147483648 -put /scratch2/youngmoon01/kibeom/inputdata/250gbsort /250gb_sort_2gb

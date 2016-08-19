@@ -1,0 +1,300 @@
+16/08/18 15:52:48 INFO terasort.TeraSort: starting
+16/08/18 15:52:50 INFO input.FileInputFormat: Total input paths to process : 128
+Spent 344ms computing base-splits.
+Spent 8ms computing TeraScheduler splits.
+Computing input splits took 353ms
+Sampling 10 splits of 256
+Making 256 from 100000 sampled records
+Computing parititions took 1359ms
+Spent 1716ms computing partitions.
+16/08/18 15:52:51 INFO client.RMProxy: Connecting to ResourceManager at ravenleader/192.168.1.201:58032
+16/08/18 15:52:52 INFO mapreduce.JobSubmitter: number of splits:256
+16/08/18 15:52:52 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1471329660260_0071
+16/08/18 15:52:53 INFO impl.YarnClientImpl: Submitted application application_1471329660260_0071
+16/08/18 15:52:53 INFO mapreduce.Job: The url to track the job: http://ravenleader:58088/proxy/application_1471329660260_0071/
+16/08/18 15:52:53 INFO mapreduce.Job: Running job: job_1471329660260_0071
+16/08/18 15:53:02 INFO mapreduce.Job: Job job_1471329660260_0071 running in uber mode : false
+16/08/18 15:53:02 INFO mapreduce.Job:  map 0% reduce 0%
+16/08/18 15:53:18 INFO mapreduce.Job:  map 1% reduce 0%
+16/08/18 15:53:19 INFO mapreduce.Job:  map 2% reduce 0%
+16/08/18 15:53:20 INFO mapreduce.Job:  map 5% reduce 0%
+16/08/18 15:53:21 INFO mapreduce.Job:  map 14% reduce 0%
+16/08/18 15:53:22 INFO mapreduce.Job:  map 15% reduce 0%
+16/08/18 15:53:23 INFO mapreduce.Job:  map 17% reduce 0%
+16/08/18 15:53:24 INFO mapreduce.Job:  map 21% reduce 0%
+16/08/18 15:53:25 INFO mapreduce.Job:  map 22% reduce 0%
+16/08/18 15:53:26 INFO mapreduce.Job:  map 24% reduce 0%
+16/08/18 15:53:27 INFO mapreduce.Job:  map 28% reduce 0%
+16/08/18 15:53:28 INFO mapreduce.Job:  map 29% reduce 0%
+16/08/18 15:53:29 INFO mapreduce.Job:  map 31% reduce 0%
+16/08/18 15:53:30 INFO mapreduce.Job:  map 37% reduce 0%
+16/08/18 15:53:32 INFO mapreduce.Job:  map 40% reduce 0%
+16/08/18 15:53:33 INFO mapreduce.Job:  map 44% reduce 0%
+16/08/18 15:53:34 INFO mapreduce.Job:  map 45% reduce 0%
+16/08/18 15:53:35 INFO mapreduce.Job:  map 47% reduce 0%
+16/08/18 15:53:36 INFO mapreduce.Job:  map 52% reduce 0%
+16/08/18 15:53:38 INFO mapreduce.Job:  map 54% reduce 0%
+16/08/18 15:53:39 INFO mapreduce.Job:  map 58% reduce 0%
+16/08/18 15:53:41 INFO mapreduce.Job:  map 60% reduce 0%
+16/08/18 15:53:42 INFO mapreduce.Job:  map 64% reduce 0%
+16/08/18 15:53:44 INFO mapreduce.Job:  map 66% reduce 0%
+16/08/18 15:53:45 INFO mapreduce.Job:  map 70% reduce 0%
+16/08/18 15:53:46 INFO mapreduce.Job:  map 71% reduce 0%
+16/08/18 15:53:47 INFO mapreduce.Job:  map 73% reduce 0%
+16/08/18 15:53:48 INFO mapreduce.Job:  map 77% reduce 0%
+16/08/18 15:53:49 INFO mapreduce.Job:  map 78% reduce 0%
+16/08/18 15:53:50 INFO mapreduce.Job:  map 80% reduce 0%
+16/08/18 15:53:51 INFO mapreduce.Job:  map 83% reduce 0%
+16/08/18 15:53:52 INFO mapreduce.Job:  map 84% reduce 0%
+16/08/18 15:53:53 INFO mapreduce.Job:  map 86% reduce 0%
+16/08/18 15:53:54 INFO mapreduce.Job:  map 88% reduce 0%
+16/08/18 15:53:55 INFO mapreduce.Job:  map 89% reduce 0%
+16/08/18 15:53:56 INFO mapreduce.Job:  map 90% reduce 0%
+16/08/18 15:53:57 INFO mapreduce.Job:  map 92% reduce 0%
+16/08/18 15:54:00 INFO mapreduce.Job:  map 93% reduce 0%
+16/08/18 15:54:01 INFO mapreduce.Job:  map 94% reduce 0%
+16/08/18 15:54:02 INFO mapreduce.Job:  map 95% reduce 1%
+16/08/18 15:54:04 INFO mapreduce.Job:  map 96% reduce 1%
+16/08/18 15:54:05 INFO mapreduce.Job:  map 94% reduce 2%
+16/08/18 15:54:05 INFO mapreduce.Job: Task Id : attempt_1471329660260_0071_m_000056_0, Status : FAILED
+FSError: java.io.IOException: Read-only file system
+16/08/18 15:54:05 INFO mapreduce.Job: Task Id : attempt_1471329660260_0071_m_000218_0, Status : FAILED
+FSError: java.io.IOException: Read-only file system
+16/08/18 15:54:06 INFO mapreduce.Job: Task Id : attempt_1471329660260_0071_m_000209_0, Status : FAILED
+FSError: java.io.IOException: Read-only file system
+16/08/18 15:54:06 INFO mapreduce.Job: Task Id : attempt_1471329660260_0071_m_000150_0, Status : FAILED
+FSError: java.io.IOException: Read-only file system
+16/08/18 15:54:06 INFO mapreduce.Job: Task Id : attempt_1471329660260_0071_m_000135_0, Status : FAILED
+FSError: java.io.IOException: Read-only file system
+16/08/18 15:54:06 INFO mapreduce.Job: Task Id : attempt_1471329660260_0071_m_000061_0, Status : FAILED
+Error: java.io.FileNotFoundException: /tmp/hadoop-wb/nm-local-dir/usercache/wb/appcache/application_1471329660260_0071/output/attempt_1471329660260_0071_m_000061_0/file.out.index (Read-only file system)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.<init>(RawLocalFileSystem.java:216)
+	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.<init>(RawLocalFileSystem.java:209)
+	at org.apache.hadoop.fs.RawLocalFileSystem.createOutputStreamWithMode(RawLocalFileSystem.java:305)
+	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:293)
+	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:279)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:890)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:787)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:776)
+	at org.apache.hadoop.mapred.SpillRecord.writeToFile(SpillRecord.java:134)
+	at org.apache.hadoop.mapred.SpillRecord.writeToFile(SpillRecord.java:127)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.mergeParts(MapTask.java:1932)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1511)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.close(MapTask.java:723)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:793)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+16/08/18 15:54:06 INFO mapreduce.Job: Task Id : attempt_1471329660260_0071_m_000210_0, Status : FAILED
+Error: java.io.FileNotFoundException: /tmp/hadoop-wb/nm-local-dir/usercache/wb/appcache/application_1471329660260_0071/output/attempt_1471329660260_0071_m_000210_0/file.out.index (Input/output error)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.<init>(RawLocalFileSystem.java:216)
+	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.<init>(RawLocalFileSystem.java:209)
+	at org.apache.hadoop.fs.RawLocalFileSystem.createOutputStreamWithMode(RawLocalFileSystem.java:305)
+	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:293)
+	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:279)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:890)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:787)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:776)
+	at org.apache.hadoop.mapred.SpillRecord.writeToFile(SpillRecord.java:134)
+	at org.apache.hadoop.mapred.SpillRecord.writeToFile(SpillRecord.java:127)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.mergeParts(MapTask.java:1932)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1511)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.close(MapTask.java:723)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:793)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+16/08/18 15:54:07 INFO mapreduce.Job: Task Id : attempt_1471329660260_0071_m_000000_0, Status : FAILED
+Error: java.io.FileNotFoundException: /tmp/hadoop-wb/nm-local-dir/usercache/wb/appcache/application_1471329660260_0071/output/attempt_1471329660260_0071_m_000000_0/file.out.index (Read-only file system)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.<init>(RawLocalFileSystem.java:216)
+	at org.apache.hadoop.fs.RawLocalFileSystem$LocalFSFileOutputStream.<init>(RawLocalFileSystem.java:209)
+	at org.apache.hadoop.fs.RawLocalFileSystem.createOutputStreamWithMode(RawLocalFileSystem.java:305)
+	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:293)
+	at org.apache.hadoop.fs.RawLocalFileSystem.create(RawLocalFileSystem.java:279)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:890)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:787)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:776)
+	at org.apache.hadoop.mapred.SpillRecord.writeToFile(SpillRecord.java:134)
+	at org.apache.hadoop.mapred.SpillRecord.writeToFile(SpillRecord.java:127)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.mergeParts(MapTask.java:1932)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1511)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.close(MapTask.java:723)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:793)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:164)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:158)
+
+16/08/18 15:54:08 INFO mapreduce.Job:  map 95% reduce 3%
+16/08/18 15:54:12 INFO mapreduce.Job:  map 96% reduce 4%
+16/08/18 15:54:15 INFO mapreduce.Job:  map 96% reduce 5%
+16/08/18 15:54:17 INFO mapreduce.Job:  map 96% reduce 6%
+16/08/18 15:54:18 INFO mapreduce.Job:  map 97% reduce 6%
+16/08/18 15:54:19 INFO mapreduce.Job:  map 97% reduce 7%
+16/08/18 15:54:23 INFO mapreduce.Job:  map 97% reduce 8%
+16/08/18 15:54:25 INFO mapreduce.Job:  map 97% reduce 9%
+16/08/18 15:54:26 INFO mapreduce.Job:  map 97% reduce 10%
+16/08/18 15:54:29 INFO mapreduce.Job:  map 97% reduce 11%
+16/08/18 15:54:36 INFO mapreduce.Job:  map 98% reduce 13%
+16/08/18 15:54:39 INFO mapreduce.Job:  map 98% reduce 15%
+16/08/18 15:54:42 INFO mapreduce.Job:  map 98% reduce 16%
+16/08/18 15:54:43 INFO mapreduce.Job:  map 98% reduce 17%
+16/08/18 15:54:45 INFO mapreduce.Job:  map 98% reduce 18%
+16/08/18 15:54:48 INFO mapreduce.Job:  map 98% reduce 19%
+16/08/18 15:54:51 INFO mapreduce.Job:  map 98% reduce 20%
+16/08/18 15:54:54 INFO mapreduce.Job:  map 98% reduce 22%
+16/08/18 15:54:59 INFO mapreduce.Job:  map 98% reduce 23%
+16/08/18 15:55:04 INFO mapreduce.Job:  map 98% reduce 24%
+16/08/18 15:55:08 INFO mapreduce.Job:  map 98% reduce 25%
+16/08/18 15:55:11 INFO mapreduce.Job:  map 98% reduce 26%
+16/08/18 15:55:16 INFO mapreduce.Job:  map 99% reduce 27%
+16/08/18 15:55:21 INFO mapreduce.Job:  map 99% reduce 28%
+16/08/18 15:55:26 INFO mapreduce.Job:  map 99% reduce 29%
+16/08/18 15:55:39 INFO mapreduce.Job:  map 100% reduce 30%
+16/08/18 15:55:50 INFO mapreduce.Job:  map 100% reduce 31%
+16/08/18 15:55:52 INFO mapreduce.Job:  map 100% reduce 32%
+16/08/18 15:55:53 INFO mapreduce.Job:  map 100% reduce 34%
+16/08/18 15:55:54 INFO mapreduce.Job:  map 100% reduce 35%
+16/08/18 15:55:55 INFO mapreduce.Job:  map 100% reduce 37%
+16/08/18 15:55:56 INFO mapreduce.Job:  map 100% reduce 38%
+16/08/18 15:55:57 INFO mapreduce.Job:  map 100% reduce 39%
+16/08/18 15:55:58 INFO mapreduce.Job:  map 100% reduce 40%
+16/08/18 15:55:59 INFO mapreduce.Job:  map 100% reduce 41%
+16/08/18 15:56:00 INFO mapreduce.Job:  map 100% reduce 42%
+16/08/18 15:56:01 INFO mapreduce.Job:  map 100% reduce 43%
+16/08/18 15:56:02 INFO mapreduce.Job:  map 100% reduce 44%
+16/08/18 15:56:03 INFO mapreduce.Job:  map 100% reduce 45%
+16/08/18 15:56:04 INFO mapreduce.Job:  map 100% reduce 46%
+16/08/18 15:56:05 INFO mapreduce.Job:  map 100% reduce 47%
+16/08/18 15:56:06 INFO mapreduce.Job:  map 100% reduce 48%
+16/08/18 15:56:08 INFO mapreduce.Job:  map 100% reduce 49%
+16/08/18 15:56:10 INFO mapreduce.Job:  map 100% reduce 50%
+16/08/18 15:56:11 INFO mapreduce.Job:  map 100% reduce 51%
+16/08/18 15:56:12 INFO mapreduce.Job:  map 100% reduce 52%
+16/08/18 15:56:15 INFO mapreduce.Job:  map 100% reduce 53%
+16/08/18 15:56:18 INFO mapreduce.Job:  map 100% reduce 54%
+16/08/18 15:56:20 INFO mapreduce.Job:  map 100% reduce 55%
+16/08/18 15:56:24 INFO mapreduce.Job:  map 100% reduce 56%
+16/08/18 15:56:26 INFO mapreduce.Job:  map 100% reduce 57%
+16/08/18 15:56:28 INFO mapreduce.Job:  map 100% reduce 58%
+16/08/18 15:56:32 INFO mapreduce.Job:  map 100% reduce 59%
+16/08/18 15:56:35 INFO mapreduce.Job:  map 100% reduce 60%
+16/08/18 15:56:37 INFO mapreduce.Job:  map 100% reduce 61%
+16/08/18 15:56:40 INFO mapreduce.Job:  map 100% reduce 62%
+16/08/18 15:56:42 INFO mapreduce.Job:  map 100% reduce 63%
+16/08/18 15:56:44 INFO mapreduce.Job:  map 100% reduce 64%
+16/08/18 15:56:45 INFO mapreduce.Job:  map 100% reduce 65%
+16/08/18 15:56:46 INFO mapreduce.Job:  map 100% reduce 66%
+16/08/18 15:56:47 INFO mapreduce.Job:  map 100% reduce 67%
+16/08/18 15:56:49 INFO mapreduce.Job:  map 100% reduce 68%
+16/08/18 15:56:50 INFO mapreduce.Job:  map 100% reduce 69%
+16/08/18 15:56:52 INFO mapreduce.Job:  map 100% reduce 70%
+16/08/18 15:56:53 INFO mapreduce.Job:  map 100% reduce 71%
+16/08/18 15:56:54 INFO mapreduce.Job:  map 100% reduce 72%
+16/08/18 15:56:56 INFO mapreduce.Job:  map 100% reduce 73%
+16/08/18 15:56:58 INFO mapreduce.Job:  map 100% reduce 74%
+16/08/18 15:56:59 INFO mapreduce.Job:  map 100% reduce 75%
+16/08/18 15:57:01 INFO mapreduce.Job:  map 100% reduce 76%
+16/08/18 15:57:02 INFO mapreduce.Job:  map 100% reduce 77%
+16/08/18 15:57:04 INFO mapreduce.Job:  map 100% reduce 78%
+16/08/18 15:57:06 INFO mapreduce.Job:  map 100% reduce 79%
+16/08/18 15:57:07 INFO mapreduce.Job:  map 100% reduce 80%
+16/08/18 15:57:09 INFO mapreduce.Job:  map 100% reduce 81%
+16/08/18 15:57:11 INFO mapreduce.Job:  map 100% reduce 82%
+16/08/18 15:57:13 INFO mapreduce.Job:  map 100% reduce 83%
+16/08/18 15:57:14 INFO mapreduce.Job:  map 100% reduce 84%
+16/08/18 15:57:15 INFO mapreduce.Job:  map 100% reduce 85%
+16/08/18 15:57:17 INFO mapreduce.Job:  map 100% reduce 86%
+16/08/18 15:57:18 INFO mapreduce.Job:  map 100% reduce 87%
+16/08/18 15:57:19 INFO mapreduce.Job:  map 100% reduce 88%
+16/08/18 15:57:20 INFO mapreduce.Job:  map 100% reduce 89%
+16/08/18 15:57:21 INFO mapreduce.Job:  map 100% reduce 90%
+16/08/18 15:57:22 INFO mapreduce.Job:  map 100% reduce 91%
+16/08/18 15:57:23 INFO mapreduce.Job:  map 100% reduce 92%
+16/08/18 15:57:24 INFO mapreduce.Job:  map 100% reduce 93%
+16/08/18 15:57:25 INFO mapreduce.Job:  map 100% reduce 94%
+16/08/18 15:57:30 INFO mapreduce.Job:  map 100% reduce 95%
+16/08/18 15:57:33 INFO mapreduce.Job:  map 100% reduce 97%
+16/08/18 15:57:39 INFO mapreduce.Job:  map 100% reduce 98%
+16/08/18 15:57:57 INFO mapreduce.Job:  map 100% reduce 99%
+16/08/18 15:59:12 INFO mapreduce.Job:  map 100% reduce 100%
+16/08/18 15:59:23 INFO mapreduce.Job: Job job_1471329660260_0071 completed successfully
+16/08/18 15:59:24 INFO mapreduce.Job: Counters: 54
+	File System Counters
+		FILE: Number of bytes read=143472456264
+		FILE: Number of bytes written=214468820588
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=68719506396
+		HDFS: Number of bytes written=68719476700
+		HDFS: Number of read operations=1536
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=512
+	Job Counters 
+		Failed map tasks=8
+		Killed map tasks=6
+		Killed reduce tasks=10
+		Launched map tasks=269
+		Launched reduce tasks=266
+		Other local map tasks=13
+		Data-local map tasks=230
+		Rack-local map tasks=26
+		Total time spent by all maps in occupied slots (ms)=29574978
+		Total time spent by all reduces in occupied slots (ms)=84547736
+		Total time spent by all map tasks (ms)=14787489
+		Total time spent by all reduce tasks (ms)=42273868
+		Total vcore-milliseconds taken by all map tasks=14787489
+		Total vcore-milliseconds taken by all reduce tasks=42273868
+		Total megabyte-milliseconds taken by all map tasks=30284777472
+		Total megabyte-milliseconds taken by all reduce tasks=86576881664
+	Map-Reduce Framework
+		Map input records=687194767
+		Map output records=687194767
+		Map output bytes=70093866234
+		Map output materialized bytes=71468648984
+		Input split bytes=29696
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=687194767
+		Reduce shuffle bytes=71468648984
+		Reduce input records=687194767
+		Reduce output records=687194767
+		Spilled Records=2061584301
+		Shuffled Maps =65536
+		Failed Shuffles=0
+		Merged Map outputs=65536
+		GC time elapsed (ms)=339382
+		CPU time spent (ms)=11443280
+		Physical memory (bytes) snapshot=366453080064
+		Virtual memory (bytes) snapshot=1176124776448
+		Total committed heap usage (bytes)=400175792128
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=68719476700
+	File Output Format Counters 
+		Bytes Written=68719476700
+16/08/18 15:59:24 INFO terasort.TeraSort: done
+397.129

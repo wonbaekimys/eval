@@ -1,0 +1,23 @@
+16/08/15 14:47:10 INFO client.RMProxy: Connecting to ResourceManager at ravenleader/192.168.1.201:58032
+16/08/15 14:47:11 INFO input.FileInputFormat: Total input paths to process : 1
+16/08/15 14:47:13 INFO mapreduce.JobSubmitter: number of splits:8000
+16/08/15 14:47:13 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1470891827491_0043
+16/08/15 14:47:13 INFO impl.YarnClientImpl: Submitted application application_1470891827491_0043
+16/08/15 14:47:13 INFO mapreduce.Job: The url to track the job: http://ravenleader:58088/proxy/application_1470891827491_0043/
+16/08/15 14:47:13 INFO mapreduce.Job: Running job: job_1470891827491_0043
+16/08/15 14:47:23 INFO mapreduce.Job: Job job_1470891827491_0043 running in uber mode : false
+16/08/15 14:47:23 INFO mapreduce.Job:  map 0% reduce 0%
+16/08/15 14:47:38 INFO mapreduce.Job:  map 1% reduce 0%
+16/08/15 14:47:39 INFO mapreduce.Job:  map 3% reduce 0%
+16/08/15 14:47:48 INFO mapreduce.Job:  map 4% reduce 0%
+16/08/15 14:47:49 INFO mapreduce.Job:  map 5% reduce 0%
+16/08/15 14:47:50 INFO mapreduce.Job:  map 6% reduce 0%
+16/08/15 14:47:55 INFO mapreduce.Job:  map 7% reduce 0%
+16/08/15 14:47:58 INFO mapreduce.Job:  map 8% reduce 0%
+16/08/15 14:47:59 INFO mapreduce.Job:  map 9% reduce 0%
+16/08/15 14:48:03 INFO mapreduce.Job:  map 10% reduce 0%
+16/08/15 14:48:06 INFO mapreduce.Job:  map 11% reduce 0%
+16/08/15 14:48:08 INFO mapreduce.Job:  map 12% reduce 0%
+16/08/15 14:48:10 INFO mapreduce.Job:  map 12% reduce 1%
+16/08/15 14:48:12 INFO mapreduce.Job:  map 13% reduce 1%
+16/08/15 14:48:14 INFO mapreduce.Job:  map 14% reduce 1%
